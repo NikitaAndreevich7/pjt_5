@@ -10,7 +10,7 @@ h2{ font-size:26px; }
 h3{ font-size:19px; }
 p { font-size:16px; }
 body{ width:100%; }
-.wrapper{ width:80%; }
+.wrapper{ width:80%; margin:auto; }
 
 
 
@@ -153,5 +153,97 @@ body{ width:100%; }
             background-color: #3e3d3d;
             color:#ffffff;
         }
+    }
+}
+.adt-container{
+    display:flex;
+    flex-direction:row;
+    margin:auto;
+    padding:40px 0 0 0 ;
+}
+.abt-box{
+    width:25%;
+    text-align:center;
+    p{
+        color: #3e3d3d;
+        font-family: Montserrat;
+        font-size:14px;
+        font-weight: 400;
+        line-height: 18px;
+        text-transform: uppercase;
+        letter-spacing: 1.47px;
+    }
+    span{
+        color: #3e3d3d;
+        font-family: Montserrat;
+        font-size: 45px;
+        font-weight: 400;
+        line-height: 83.99px;
+    }
+    img{
+        align-self:center;
+        padding-bottom:15px;
+    }
+}
+.q{ border-right: 1px solid #b0b0b0;}
+
+
+
+/*SERVICES*/
+.services{
+    padding:100px 0;
+    background-image: url('../images/svc_backg.png');
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.svc-container{
+    display:flex;
+    justify-content:space-between;
+}
+.svc-txt{
+    width:90%;
+    margin:auto;
+    text-align:center;
+    h2{
+        color: #ffffff;
+        font-family: Amsdam;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.44px;
+    }
+    p{
+        padding:50px 0 40px 0;
+        color: #cfcfcf;
+        font-family: "Crimson Text";
+        font-weight: 400;
+        letter-spacing: 1.4px;
+    }
+}
+.svc-box{
+    width:24%;
+    text-align:center;
+    fieldset{
+        padding:30px 15px 30px 15px;
+        height:370px;
+    }
+    img{
+        padding:0 15px 0 15px;
+    }
+    h3{
+        color: #d8d8d8;
+        font-family: Montserrat;
+        font-weight: 400;
+        line-height: 18px;
+        text-transform: uppercase;
+        letter-spacing: 1.47px;
+    }
+    p{
+        color: #d8d8d8;
+        font-family: "Crimson Text";
+        font-weight: 400;
+        line-height: 20.31px;
+        letter-spacing: 1.4px;
+        padding-top:20px;
     }
 }
